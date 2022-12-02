@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Guess</title>
+    <link rel="stylesheet" href="/stlye.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <h2>Number guessing game</h2>
+        <h3>Guess a number between 1-15</h3>
+        <!-- <div class="guess-numb"></div> -->
+        <input type="number"class="guess-numb" min="1" max="15">
+        <button class="btn">Guess</button>
+        <div class="guess-count">
+          Guessed numbers are: <span class="guessed">12</span><br />
+          No. of guesses: <span class="guesses">1</span>
+        </div>
+        <div class="guess-quality"></div>
+      </div>
+    </div>
+    <script src="/main.js"></script>
+  </body>
+</html>
